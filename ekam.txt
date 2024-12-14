@@ -1,1 +1,3 @@
 Hello from ekam
+<?php echo date(); ?>
+
