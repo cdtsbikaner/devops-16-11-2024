@@ -1,0 +1,8 @@
+name: mywf1
+on: push
+jobs:
+ mysjob1:
+  runs-on: centos:8
+  steps: 
+  - name: mystep1
+    run: echo "Hello CDTS Bikaner"
