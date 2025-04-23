@@ -1,0 +1,8 @@
+name: mytask1
+on: push
+jobs:
+ myjob1: 
+  runs-on: centos:8
+  steps: 
+  - name: mystep1
+    run: echo "Hello World" 
